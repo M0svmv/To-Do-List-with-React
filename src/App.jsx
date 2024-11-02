@@ -7,7 +7,7 @@ import TasksProvider from "./context/tasksContext";
 
 function App() {
   return (
-    <div className=" container col-7 d-flex justify-content-center App bg-light shadow-sm p-2 rounded flex-column mt-2">
+    <div className=" container col-md-7 col-sm-11 d-flex justify-content-center App bg-light shadow-sm p-2 rounded flex-column mt-2">
       <TasksProvider>
         <NewTask />
         <Tasks />
